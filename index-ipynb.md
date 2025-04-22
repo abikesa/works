@@ -136,9 +136,7 @@ blockquote a:hover {
 <p></p> 
 
 <div class="float-frame float-right">
-
-<!-- .ipynb codeblock -->
-
+<!--ipynb codeblock -->
    <div class="float-right" style="float:none;width:100%;margin-left:0;border:none;padding:0;background:none;">
         <a class="image-bubble layered-icon" href="figures/us-research-ecosystem.jpeg" target="_blank" title="Click to magnify">
         <div class="large-icon"></div>
@@ -204,6 +202,53 @@ height: 1
 name: figures/autism
 ---
 _Digital vs. Analog_. Non-trivial question. One emergent phenomenon of this binary is a start-up brand called MAGA. And several emergent phenomena including the Kennedy's, autism, and more. Study the neural net above to see if you might deduce some specifics from its general riff. But one thing is for sure: start-ups are their boosters are very selective about the data they quote!
+```
+
+</div>
+
+
+<iframe src="myhtml/whatsApp.html" width="100%" height="1000px" style="border:none;"></iframe>
+
+---
+
+<iframe src="myhtml/ilya.html" width="100%" height="1000px" style="border:none;"></iframe>
+
+<style>
+/* Scoped variant for seealso boxes */
+.float-frame.seealso-style {
+    float: right; 
+    display: inline-block;
+    width: 190px;
+    max-width: 190px;
+    min-width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    font-size: 13px;
+    background-color: #f9f9f9;
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    white-space: nowrap;
+}
+
+/* Responsive fallback */
+@media (max-width: 768px) {
+    .float-frame.seealso-style {
+        float: none !important;
+        display: block;
+        width: 95vw !important;
+        max-width: 95vw !important;
+        margin: 10px auto;
+        white-space: normal;
+    }
+}
+</style>
+
+<div class="float-frame seealso-style">
+
+```{seealso}
+[whatsApp auto-scrawl!](https://abikesa.github.io/ulysses/)
 ```
 
 </div>
@@ -279,10 +324,7 @@ _Digital vs. Analog_. Non-trivial question. One emergent phenomenon of this bina
 
 <div class="float-right">
 
-<!-- Your empty Python code cell goes directly above this block in the .ipynb file -->
-
-<!-- .ipynb codeblock, empty -->
-
+<!-- .ipynb codeblock-->
 <div class="float-right" style="float:none;width:100%;margin-left:0;border:none;padding:0;background:none;">
     <iframe width="100%" height="250" src="https://www.youtube.com/embed/sZKzkBzXptY?start=3180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -303,51 +345,31 @@ name: figures/cgbest
 </div>
 </div>
 
+<!-- FLOATING VIDEO FRAME -->
+<div class="float-frame float-right">
+    <iframe width="100%" height="250"
+        src="https://www.youtube.com/embed/sZKzkBzXptY?start=3180"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+<!-- MUST BE OUTSIDE THE HTML BLOCK; really? not sure! -->
+    <a class="image-bubble layered-icon" href="figures/autism-spectrum-disorder.jpeg" target="_blank" title="Click to magnify">
+        <div class="large-icon"></div>
+        <div class="small-icon"></div>
+    </a>
 
 
-
-<iframe src="myhtml/whatsApp.html" width="100%" height="1000px" style="border:none;"></iframe>
-
+```{figure} https://www.ledr.com/colours/white.jpg
 ---
-
-<iframe src="myhtml/ilya.html" width="100%" height="1000px" style="border:none;"></iframe>
-
-<style>
-/* Scoped variant for seealso boxes */
-.float-frame.seealso-style {
-    float: right; 
-    display: inline-block;
-    width: 190px;
-    max-width: 190px;
-    min-width: 100px;
-    height: auto;
-    border: 1px solid #ccc;
-    padding: 6px 10px;
-    font-size: 13px;
-    background-color: #f9f9f9;
-    position: relative;
-    text-align: center;
-    margin: 15px;
-    white-space: nowrap;
-}
-
-/* Responsive fallback */
-@media (max-width: 768px) {
-    .float-frame.seealso-style {
-        float: none !important;
-        display: block;
-        width: 95vw !important;
-        max-width: 95vw !important;
-        margin: 10px auto;
-        white-space: normal;
-    }
-}
-</style>
-
-<div class="float-frame seealso-style">
-
-```{seealso}
-[whatsApp auto-scrawl!](https://abikesa.github.io/ulysses/)
+width: 1
+height: 1
+name: autism-youtube-ghost
+---
+**_So So Def: Reason vs. Resonance?_**. Think of it like this: a sequence—**nonself → self → recognize → identity → flourish**. JD as a teenager, clocking someone like his homegirls *in* Xscape. Not polished, not GQ’d, but familiar. He *recognized* them. And maybe that’s it. Maybe it’s not about heroic decisions at grand forks in the road. Maybe it’s simpler, subtler: maybe we just *node*—not choose, but click—when we recognize self. Not a decision, but a resonance.
 ```
 
 </div>
+
+
+
